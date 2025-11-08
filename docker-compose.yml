@@ -1,0 +1,20 @@
+services:
+  # サービス名を自由に決めます (例: app, workspaceなど)
+  app:
+    # Dockerfileがある場所を指定してビルドする
+    build: .
+    # ホストのカレントディレクトリ(.)をコンテナの/workspaceにマウント
+    # ここで-vオプションと同じ設定ができます！
+    volumes:
+      - .:/workspace
+    # GPUを使えるようにする設定 (docker compose v2.3以降)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    # -it オプションと同じ設定
+    stdin_open: true # -i
+    tty: true        # -t

@@ -1,0 +1,63 @@
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Secrets / config
+.env
+.env.*
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+coverage.xml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# Data and output directories (if not explicitly tracked)
+data/
+datasets/
+input/
+output/
+results/
+models/
+weights/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Common data/model files
+*.csv
+*.tsv
+*.h5
+*.pth
+*.ckpt
+*.npz
+
+# Windows run file
+.exe
