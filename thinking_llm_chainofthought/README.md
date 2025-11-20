@@ -26,7 +26,7 @@ CoTを盲信せず、
 
 * **Python 3.9+**
 * **Ollama**（ローカル推論環境）
-* **llama3.2**（推奨・任意で差し替え可）
+* **llama3.1:8b**（推奨・任意で差し替え可）
 
 インストール：
 [https://ollama.ai](https://ollama.ai)

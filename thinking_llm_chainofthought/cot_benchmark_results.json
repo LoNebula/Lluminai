@@ -1,0 +1,146 @@
+[
+  {
+    "mode": "no_cot",
+    "category": "arithmetic",
+    "question": "37 + 48 はいくつですか？",
+    "correct": true,
+    "latency": 12.018319099999644,
+    "output_len": 10
+  },
+  {
+    "mode": "no_cot",
+    "category": "arithmetic",
+    "question": "144 ÷ 12 はいくつですか？",
+    "correct": false,
+    "latency": 2.658881699999256,
+    "output_len": 2
+  },
+  {
+    "mode": "no_cot",
+    "category": "logic",
+    "question": "リンゴはミカンより高く、ミカンはバナナより高いです。リンゴはバナナより高いですか？「はい」か「いいえ」で答えてください。",
+    "correct": true,
+    "latency": 3.2416835999993054,
+    "output_len": 9
+  },
+  {
+    "mode": "no_cot",
+    "category": "logic",
+    "question": "スイッチを押すと電気がつきます。今、電気は消えています。スイッチは押されていますか？「はい」か「いいえ」で答えてください。",
+    "correct": true,
+    "latency": 3.4833944000001793,
+    "output_len": 11
+  },
+  {
+    "mode": "no_cot",
+    "category": "date",
+    "question": "今日は月曜日です。ここから3日後は何曜日ですか？曜日だけ答えてください（例：金曜日）。",
+    "correct": false,
+    "latency": 3.461885299999267,
+    "output_len": 12
+  },
+  {
+    "mode": "no_cot",
+    "category": "date",
+    "question": "今日は10月1日です。昨日は何月何日でしたか？（例：1月1日）。",
+    "correct": true,
+    "latency": 3.8360451999997167,
+    "output_len": 15
+  },
+  {
+    "mode": "short_cot",
+    "category": "arithmetic",
+    "question": "37 + 48 はいくつですか？",
+    "correct": true,
+    "latency": 4.738875300001382,
+    "output_len": 29
+  },
+  {
+    "mode": "short_cot",
+    "category": "arithmetic",
+    "question": "144 ÷ 12 はいくつですか？",
+    "correct": true,
+    "latency": 8.691280600000027,
+    "output_len": 90
+  },
+  {
+    "mode": "short_cot",
+    "category": "logic",
+    "question": "リンゴはミカンより高く、ミカンはバナナより高いです。リンゴはバナナより高いですか？「はい」か「いいえ」で答えてください。",
+    "correct": true,
+    "latency": 6.920829800001229,
+    "output_len": 59
+  },
+  {
+    "mode": "short_cot",
+    "category": "logic",
+    "question": "スイッチを押すと電気がつきます。今、電気は消えています。スイッチは押されていますか？「はい」か「いいえ」で答えてください。",
+    "correct": true,
+    "latency": 7.379555600000458,
+    "output_len": 69
+  },
+  {
+    "mode": "short_cot",
+    "category": "date",
+    "question": "今日は月曜日です。ここから3日後は何曜日ですか？曜日だけ答えてください（例：金曜日）。",
+    "correct": true,
+    "latency": 4.350859300000593,
+    "output_len": 27
+  },
+  {
+    "mode": "short_cot",
+    "category": "date",
+    "question": "今日は10月1日です。昨日は何月何日でしたか？（例：1月1日）。",
+    "correct": true,
+    "latency": 5.271246600001177,
+    "output_len": 33
+  },
+  {
+    "mode": "long_cot",
+    "category": "arithmetic",
+    "question": "37 + 48 はいくつですか？",
+    "correct": true,
+    "latency": 25.79191660000106,
+    "output_len": 267
+  },
+  {
+    "mode": "long_cot",
+    "category": "arithmetic",
+    "question": "144 ÷ 12 はいくつですか？",
+    "correct": true,
+    "latency": 30.411619900000005,
+    "output_len": 332
+  },
+  {
+    "mode": "long_cot",
+    "category": "logic",
+    "question": "リンゴはミカンより高く、ミカンはバナナより高いです。リンゴはバナナより高いですか？「はい」か「いいえ」で答えてください。",
+    "correct": true,
+    "latency": 22.95256380000137,
+    "output_len": 252
+  },
+  {
+    "mode": "long_cot",
+    "category": "logic",
+    "question": "スイッチを押すと電気がつきます。今、電気は消えています。スイッチは押されていますか？「はい」か「いいえ」で答えてください。",
+    "correct": true,
+    "latency": 29.20734319999974,
+    "output_len": 360
+  },
+  {
+    "mode": "long_cot",
+    "category": "date",
+    "question": "今日は月曜日です。ここから3日後は何曜日ですか？曜日だけ答えてください（例：金曜日）。",
+    "correct": true,
+    "latency": 13.897524500000145,
+    "output_len": 146
+  },
+  {
+    "mode": "long_cot",
+    "category": "date",
+    "question": "今日は10月1日です。昨日は何月何日でしたか？（例：1月1日）。",
+    "correct": true,
+    "latency": 13.5796395999987,
+    "output_len": 140
+  }
+]

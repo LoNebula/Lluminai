@@ -74,7 +74,10 @@ def run_ollama_api(prompt: str) -> str:
         "model": MODEL,
         "prompt": prompt,
         "stream": False,
-        "options": {"temperature": 0.0}
+        "options": {
+            "temperature": 0.0,
+            "num_tokens": 300
+        }
     }
     try:
         response = requests.post(API_URL, json=payload)
