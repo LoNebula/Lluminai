@@ -1,20 +1,9 @@
-以下は、このリポジトリ用の **README.md（完成版）** です。
-研究記事と連動した内容になっており、GitHub上でそのまま使えます。
-
----
-
-# README.md
-
 # 🧠 Chain-of-Thought Benchmark for Thinking LLMs
 
 **Evaluate “no CoT / short CoT / long CoT” reasoning modes on local LLMs (Ollama).**
 
 このリポジトリは、Chain-of-Thought（CoT）推論の **長さによる性能差** を
 ローカルLLM（Ollama）で簡易ベンチマークするためのツールです。
-
-研究記事：
-**「Thinking LLMs：Chain-of-Thought再考とその限界」**
-（Zenn 公開予定）
 
 ---
 
