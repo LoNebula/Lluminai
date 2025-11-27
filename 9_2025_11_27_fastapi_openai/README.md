@@ -20,17 +20,6 @@ FastAPI × OpenAI × Streamlit
 
 ---
 
-# 🖼️ UI スクリーンショット
-
-以下のような UI からプロンプトを入力し、  
-モデルが自動選ばれて推論結果が返ってきます。
-
-（※ GitHub にアップロード後、画像パスを貼り替えてください）
-
-![LLM モデル自動切替 UIのスクリーンショット](./screenshot.png)
-
----
-
 # 📁 ディレクトリ構成
 
 ```
@@ -43,7 +32,7 @@ project/
 ├── .env               # OPENAI_API_KEY を格納
 └── README.md
 
-````
+```
 
 ---
 
@@ -54,7 +43,7 @@ project/
 ```bash
 git clone https://github.com/yourname/yourrepo.git
 cd yourrepo
-````
+```
 
 ## 2. パッケージをインストール
 
