@@ -11,7 +11,7 @@ load_dotenv()
 key = os.getenv("OPENAI_API_KEY_LLUMINAI")
 
 # モデルの初期化
-llm = ChatOpenAI(model="gpt-5.2", temperature=0.7, api_key=key)
+llm = ChatOpenAI(model="gpt-4o", temperature=0.7, api_key=key)
 search_tool = TavilySearchResults(max_results=3)
 
 def researcher_node(state: AgentState):
